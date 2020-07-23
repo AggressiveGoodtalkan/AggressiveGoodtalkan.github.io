@@ -1,7 +1,7 @@
 body{
-  background: url('../media/images/background.jpg');
+  background: url('../media/img/background.jpg');
   background-size: inherit;
-  font-family: Gotham;
+  font-family: 'Mulish', sans-serif;;
   color: white;
 }
 
@@ -30,25 +30,44 @@ body{
   color: white;
 }
 
+.custom-navbar-style {
+  background-color: #333;
+}
+
+.spacer-modification{
+  padding: 2rem;
+}
+
+/* -- BOOTSTRAP OVERRIDE -- */
+
+.container-md {
+  margin: 1rem auto auto;
+  opacity: 0.75;
+  background-color: white;
+}
+
+
+
 /* -- HEADINGS -- */
 h1,h3{
-  color: lightblue;
+  color: gray;
+}
+
+p{
+  font-family: 'Montserrat', sans-serif;
+  color: darkgray;
 }
 
 /* -- LINKS OUTSIDE ANY CLASS -- */
 a{
-  color: red;
+  color: darkblue;
 }
 a:hover{
-  color: orange;
+  color: blue;
 }
 a:active{
   color:white;
 }
 a:visited{
-  color:lightblue;
-}
-
-body{
-  background-image: url(media/images/background.jpg);
+  color:green;
 }
