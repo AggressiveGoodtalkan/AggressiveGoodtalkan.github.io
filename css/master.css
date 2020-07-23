@@ -1,6 +1,6 @@
 body{
   background: url('../media/img/background.jpg');
-  background-size: inherit;
+  background-size: cover;
   font-family: 'Mulish', sans-serif;;
   color: white;
 }
