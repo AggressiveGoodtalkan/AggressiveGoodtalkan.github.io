@@ -48,3 +48,7 @@ a:active{
 a:visited{
   color:lightblue;
 }
+
+body{
+  background-image: url(media/images/background.jpg);
+}
