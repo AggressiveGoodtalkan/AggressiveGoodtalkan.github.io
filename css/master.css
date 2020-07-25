@@ -1,7 +1,7 @@
-body{
-  background: url('../media/img/background.jpg');
+body {
+  background: url("../media/img/background.jpg");
   background-size: cover;
-  font-family: 'Mulish', sans-serif;;
+  font-family: "Mulish", sans-serif;
   color: white;
 }
 
@@ -26,7 +26,7 @@ body{
 }
 
 .topnav a.active {
-  background-color: #4CAF50;
+  background-color: #4caf50;
   color: white;
 }
 
@@ -34,7 +34,7 @@ body{
   background-color: #333;
 }
 
-.spacer-modification{
+.spacer-modification {
   padding: 2rem;
 }
 
@@ -42,32 +42,31 @@ body{
 
 .container-md {
   margin: 1rem auto auto;
-  opacity: 0.75;
-  background-color: white;
+  opacity: 0.65;
+  background-color: #121212;
 }
 
-
-
 /* -- HEADINGS -- */
-h1,h3{
+h1,
+h3 {
   color: gray;
 }
 
-p{
-  font-family: 'Montserrat', sans-serif;
-  color: darkgray;
+p {
+  font-family: "Montserrat", sans-serif;
+  color: white;
 }
 
 /* -- LINKS OUTSIDE ANY CLASS -- */
-a{
+a {
   color: darkblue;
 }
-a:hover{
+a:hover {
   color: blue;
 }
-a:active{
-  color:white;
+a:active {
+  color: white;
 }
-a:visited{
-  color:green;
+a:visited {
+  color: green;
 }
